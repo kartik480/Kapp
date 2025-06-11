@@ -1,0 +1,62 @@
+package com.kurakulas.app.data.model
+
+import com.google.gson.annotations.SerializedName
+
+data class UserProfileResponse(
+    @SerializedName("success") val success: Boolean,
+    @SerializedName("data") val data: UserProfile?,
+    @SerializedName("message") val message: String?
+)
+
+data class UserProfile(
+    @SerializedName("id") val id: String?,
+    @SerializedName("username") val username: String?,
+    @SerializedName("firstName") val firstName: String?,
+    @SerializedName("lastName") val lastName: String?,
+    @SerializedName("mobile") val mobile: String?,
+    @SerializedName("email_id") val emailId: String?,
+    @SerializedName("password") val password: String?,
+    @SerializedName("dob") val dob: String?,
+    @SerializedName("employee_no") val employeeNo: String?,
+    @SerializedName("father_name") val fatherName: String?,
+    @SerializedName("joining_date") val joiningDate: String?,
+    @SerializedName("department_id") val departmentId: String?,
+    @SerializedName("designation_id") val designationId: String?,
+    @SerializedName("present_address") val presentAddress: String?,
+    @SerializedName("permanent_address") val permanentAddress: String?,
+    @SerializedName("status") val status: String?,
+    @SerializedName("rank") val rank: String?,
+    @SerializedName("avatar") val avatar: String?,
+    @SerializedName("height") val height: String?,
+    @SerializedName("weight") val weight: String?,
+    @SerializedName("passport_no") val passportNo: String?,
+    @SerializedName("passport_valid") val passportValid: String?,
+    @SerializedName("languages") val languages: String?,
+    @SerializedName("hobbies") val hobbies: String?,
+    @SerializedName("blood_group") val bloodGroup: String?,
+    @SerializedName("emergency_no") val emergencyNo: String?,
+    @SerializedName("emergency_address") val emergencyAddress: String?,
+    @SerializedName("reference_name") val referenceName: String?,
+    @SerializedName("reference_relation") val referenceRelation: String?,
+    @SerializedName("reference_mobile") val referenceMobile: String?,
+    @SerializedName("reference_address") val referenceAddress: String?,
+    @SerializedName("reference_name2") val referenceName2: String?,
+    @SerializedName("reference_relation2") val referenceRelation2: String?,
+    @SerializedName("reference_mobile2") val referenceMobile2: String?,
+    @SerializedName("reference_address2") val referenceAddress2: String?,
+    @SerializedName("acc_holder_name") val accHolderName: String?,
+    @SerializedName("bank_name") val bankName: String?,
+    @SerializedName("branch_name") val branchName: String?,
+    @SerializedName("account_number") val accountNumber: String?,
+    @SerializedName("ifsc_code") val ifscCode: String?,
+    @SerializedName("reportingTo") val reportingTo: String?,
+    @SerializedName("official_phone") val officialPhone: String?,
+    @SerializedName("official_email") val officialEmail: String?,
+    @SerializedName("work_state") val workState: String?,
+    @SerializedName("work_location") val workLocation: String?,
+    @SerializedName("last_working_date") val lastWorkingDate: String?,
+    @SerializedName("leaving_reason") val leavingReason: String?,
+    @SerializedName("re_joining_date") val reJoiningDate: String?,
+    @SerializedName("pf_number") val pfNumber: String?,
+    @SerializedName("esi_number") val esiNumber: String?
+) 

@@ -1,0 +1,36 @@
+# Configuration files
+db_config.php
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependencies
+/vendor/
+
+# Cache
+/cache/
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
